@@ -14,11 +14,11 @@ lang                     : "es_ES"
 title                    : "Glossan Gas"
 description              : "Fontanería, gas y calefacción"
 url                      : "https://www.glossan.es"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 repository               : # GitHub username/repo-name e.g. "manid2/lone-wolf-theme"
-teaser                   : "teaser.png" # "/assets/images/teaser.png"
+teaser                   : "/assets/images/teaser.png"
 logo                     : "glossan.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "test"
 words_per_minute         : 200
 
 # comments settings

@@ -2,16 +2,39 @@
 layout: default
 ---
 
+{%- assign page.title = "blablablabla " -%}
+
 <section>
   <div class="container mt-2 mb-2">
     <div class="row">
       <div class="col-sm">
-        <h1>Hello World</h1>
+        <h2 id="story">¡Bienvenido a Glossan Gas!</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-sm">
-        <p>Welcome to my theme, <a href="{{ '/welcome/' | relative_url }}">Lone Wolf Theme</a></p>
+        <p>Empresa fundada en 1995</p>
+        <p>Nos dedicamos a:</p>
+        <ol>
+          <li>Mantenimiento de comunidades:</li>
+          <ul>
+            <li>Cambio de ascendentes</li>
+            <li>Cambio de bajantes</li>
+            <li>Averías y urgencias</li>
+            <li>Impermeabilización de tejados y terrazas</li>
+          </ul>
+          <li>Instalaciones de gas individuales y colectivas</li>
+          <ul>
+            <li>Montaje de calderas, calentadores y revisión de instalaciones</li>
+            <li>Instalaciónes de calefacción y suelo radiante</li>
+          </ul>
+        </ol>
+        <div class="blog-post-social-share">
+          {% include social-share.html %}
+        </div>
+      </div>
+      <div class="col-md-4 blog-post-sidebar">
+        {% include contact-sidebar.html %}
       </div>
     </div>
   </div>
